@@ -1635,6 +1635,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ddd;
 }
 
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -1758,3 +1759,4 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 10px;
   }
 }
+
