@@ -469,7 +469,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
+  background: url(../img/intro-bg.png) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -786,6 +786,104 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details p {
+  color: #112363;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+
+/*--------------------------------------------------------------
+# Delegates Section
+--------------------------------------------------------------*/
+
+#delegates {
+  padding: 60px 0 30px 0;
+}
+
+#delegates .speaker {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#delegates .speaker .details {
+  background: rgba(6, 12, 34, 0.76);
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#delegates .speaker .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#delegates .speaker .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#delegates .speaker .details .social {
+  height: 30px;
+}
+
+#delegates .speaker .details a {
+  color: #fff;
+}
+
+#delegates .speaker .details a:hover {
+  color: #f82249;
+}
+
+#delegates .speaker:hover .details {
+  bottom: 0;
+}
+
+#delegates-details {
+  padding: 60px 0;
+}
+
+#delegates-details .details h2 {
+  color: #112363;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#delegates-details .details .social {
+  margin-bottom: 15px;
+}
+
+#delegates-details .details .social a {
+  background: #e9edfb;
+  color: #112363;
+  line-height: 1;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding-top: 9px;
+}
+
+#delegates-details .details .social a:hover {
+  background: #f82249;
+  color: #fff;
+}
+
+#delegates-details .details .social a i {
+  font-size: 18px;
+}
+
+#delegates-details .details p {
   color: #112363;
   font-size: 15px;
   margin-bottom: 10px;
