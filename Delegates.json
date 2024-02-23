@@ -21,16 +21,16 @@
     "name": "Ms. Prathyusha",
     "designation": "Ph.D. student",
     "department": "Department of Medical Devices and Engineering",
-    "college": "Division of Polymeric Medical Devices, SCTIMST Trivandrum",
+    "college": "Division of Polymeric Medical Devices, SCTIMST",
     "phone": "+91 7591910413",
     "email": "prathyusharavi95@gmail.com",
     "image_url": "3.jpg"
   },
   {
-    "name": "Er. Jithin Krishnan (Scientist)",
+    "name": "Er. Jithin Krishnan",
     "designation": "Scientist",
     "department": "Dept of Medical Devices Engineering",
-    "college": "Division of Medical Instrumentation, BMT, SCTIMST Trivandrum",
+    "college": "Division of Medical Instrumentation, BMT Wing, SCTIMST",
     "phone": "+91 9447332373",
     "email": "jithinkrishnan@sctimst.ac.in",
     "image_url": "4.jpg"
@@ -63,7 +63,7 @@
     "image_url": "7.jpg"
   },
   {
-    "name": "Er. Chander Shekhar Sharma (Scientist)",
+    "name": "Er. Chander Shekhar Sharma",
     "designation": "Scientist",
     "department": "Council of Scientific and Industrial Research",
     "college": "Institute of Microbial Technology (IMTECH), Chandigarh",
