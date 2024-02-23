@@ -50,7 +50,7 @@
           <li><a href="#schedule">Schedule</a></li>
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#footer">Contact</a></li>
-          <li class="buy-tickets"><a href="#buy-tickets">Register</a></li>
+          <li class="buy-tickets"><a href="../assets/doc/STSH_Workshop_March_4&5_2024_Call_for_participants_FINAL.pdf">Register</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -150,7 +150,7 @@
             <div class="speaker">
               <img src="img/speakers/user.jpg" alt="Speaker 3" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Dr. Pantelis Sopasaki –</a></h3>
+                <h3><a href="speaker-details.html">Dr. Pantelis Sopasaki</a></h3>
                 <p>Queen's University Belfast, UK</p>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
@@ -288,21 +288,6 @@
                 <h3><a href="speaker-details.html">Dr. Sathishkumar V E</a></h3>
                 <p>Sunway University, Malaysia
                 </p>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/user.jpg" alt="Speaker 6" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html">Dr. Van-Truong Nguyen</a></h3>
-                <p>Hanoi University of Industry, Vietnam</p>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -1043,6 +1028,7 @@
 
       <div class="container">
         <div class="copyright">
+          Contact: gunasekaran@mitindia.edu, ngnlab@mitindia.edu<br>
           &copy; Copyright <strong> NGNLab</strong>. All Rights Reserved
         </div>
       </div>
@@ -1075,20 +1061,17 @@
             html += '<div class="speaker delegate">';
             html += '<img src="img/delegates/' + item.image_url + '" alt="' + item.name + '" class="img-fluid delegate-img">';
             html += '<div class="details">';
-            html += '<h3><a href="speaker-details.html">' + item.name + '</a></h3>';
-            html += '<p>' + item.designation + '</p>';
-            html += '<div class="social">';
-            html += '<p>' + item.department + '<br>' + item.college + '</p>';
-            html += '</div>';
-            html += '</div>';
-            html += '</div>';
-            html += '</div>';
-
+            html += '<p style="color: white; font-weight: bold;">' + item.name + '<br>' + '<span style="font-size: 8px">' + item.college + '</span>' + '</p>';
+            html += '</div>'; 
+            html += '</div>'; 
+            html += '</div>'; 
+    
             $('#delegatesContainer').append(html);
           });
         });
       });
     </script>
+    
 
     <script>
       // Get the modal

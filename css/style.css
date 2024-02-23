@@ -775,7 +775,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details .social a i {
-  font-size: 18px;
+  font-size: 12px;
 }
 
 #speakers-details .details p {
@@ -824,7 +824,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #delegates .speaker .details .social {
-  height: 30px;
+  height: 0px;
 }
 
 #delegates .speaker .details a {
@@ -851,7 +851,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #delegates-details .details .social {
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
 #delegates-details .details .social a {
@@ -872,7 +872,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #delegates-details .details .social a i {
-  font-size: 18px;
+  font-size: 12px;
 }
 
 #delegates-details .details p {
@@ -1799,6 +1799,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .delegate-img {
-  height: 240px;
+  height: 320px;
   object-fit: fill;
 }
