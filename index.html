@@ -150,7 +150,7 @@
             <div class="speaker">
               <img src="img/speakers/user.jpg" alt="Speaker 3" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Dr. Pantelis Sopasaki –</a></h3>
+                <h3><a href="speaker-details.html">Dr. Pantelis Sopasaki</a></h3>
                 <p>Queen's University Belfast, UK</p>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
@@ -1075,20 +1075,17 @@
             html += '<div class="speaker delegate">';
             html += '<img src="img/delegates/' + item.image_url + '" alt="' + item.name + '" class="img-fluid delegate-img">';
             html += '<div class="details">';
-            html += '<h3><a href="speaker-details.html">' + item.name + '</a></h3>';
-            html += '<p>' + item.designation + '</p>';
-            html += '<div class="social">';
-            html += '<p>' + item.department + '<br>' + item.college + '</p>';
-            html += '</div>';
-            html += '</div>';
-            html += '</div>';
-            html += '</div>';
-
+            html += '<p style="color: white; font-weight: bold;">' + item.name + '<br>' + '<span style="font-size: 8px">' + item.college + '</span>' + '</p>';
+            html += '</div>'; 
+            html += '</div>'; 
+            html += '</div>'; 
+    
             $('#delegatesContainer').append(html);
           });
         });
       });
     </script>
+    
 
     <script>
       // Get the modal
